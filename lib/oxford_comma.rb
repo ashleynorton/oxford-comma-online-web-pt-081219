@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif array.size >= 3
     last_element = array.pop
     new_string = array.insert(-1, "and ").join(", ")
-    new_string << last_element.join
+    new_string << last_element
   else 
     array.join 
   end
